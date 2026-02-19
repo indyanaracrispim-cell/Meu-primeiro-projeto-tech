@@ -1,0 +1,22 @@
+                                      # Painel de alerta criado!
+# Link visual: file:///C:/Users/Acer/Desktop/Front-end%20Visual%20studio%20code/index.html%20(2) 
+segue -> 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Monitor NeoTech</title>
+</head>
+<body>
+    <div style="text-align: center; font-family: sans-serif; padding: 50px;">
+        <h1 style="color: #2c3e50;">Painel de Monitoramento Neonatal</h1>
+        <div style="background-color: #ecf0f1; border-radius: 15px; padding: 20px; display: inline-block;">
+            <p>Frequência Cardíaca (RN):</p>
+            <h2 style="font-size: 80px; color: #e74c3c; margin: 10px;">175</h2>
+            <p style="font-weight: bold; color: #e74c3c;">⚠️ ALERTA: TAQUICARDIA DETECTADA</p>
+        </div>
+        <p style="margin-top: 20px; color: #7f8c8d;">Status: Paciente em monitorização contínua.</p>
+    </div>
+</body>
+</html>
