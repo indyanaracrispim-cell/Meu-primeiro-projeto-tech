@@ -1,7 +1,7 @@
                                                      Do Cuidado à Inovação: 
                                                  
                                                  Transição Enfermagem para Tech
-​ Olá;
+
 ​Sou acadêmica de Enfermagem com mais de 5 anos de experiência em setores críticos como UTI Neonatal/Pediátrica e Hemodiálise. Minha jornada na tecnologia nasceu da vontade de resolver falhas reais que vivenciei como usuária avançada do sistema Tasy, unindo a precisão assistencial com o poder do desenvolvimento de software.
 
 Formação Técnica (SCTEC / SENAI)
