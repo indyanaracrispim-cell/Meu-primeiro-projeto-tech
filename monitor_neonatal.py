@@ -13,3 +13,7 @@ elif fc_neonatal > 160:
     print("⚠️ ALERTA: FC acima do normal para RN (Possível Taquicardia).")
 else:
     print("✅ FC dentro dos parâmetros de normalidade (120-160 bpm).")
+
+TESTADO: VS code 
+Monitorando FC Neonatal: 175 bpm
+⚠️ ALERTA: FC acima do normal para RN (Possível Taquicardia).
