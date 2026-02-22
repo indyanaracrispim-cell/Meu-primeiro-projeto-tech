@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final - SCTEC - Portifólio </title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <span class="logo">Enf.Dev</span></span>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> 
+        
+        <section id="hero">
+            <figure class="profile-container">
+                <img src="perfil.jpg" alt="Imagem de foto de perfiL" title="Imagem de perfil de Indy" id="profile-img">
+            </figure>
+            <article class="hero-text">
+                <h1>Indyanara Crispim | <span class="highlight">Enf.Dev</span></h1>
+                <p class="tagline">Transição de carreira | Acadêmica de Enfermagem | HealthTech </p>
+                <blockquote>"Na enfermagem a prioridade é o paciente; no código, a prioridade é o usuário e a integridade dos dados onde se traduz em segurança, ética e entrega de alta qualidade."</blockquote>
+                <div class="contact-links">
+                    <a href="https://linkedin.com/in/indyanara-crispim-0625a2183/" target="_blank" class="btn">LinkedIn</a>
+                    <a href="https://github.com/indyanaracrispim-cell/Site---Portif-lio" target="_blank" class="btn">GitHub</a>
+                    <a href="curriculo.pdf" download class="btn primary">Baixar CV</a>
+                </div>
+            </article>
+        </section>
+
+        <!-- Sobre Mim -->
+        <section id="sobre">
+                <h2>Minha História</h2>
+                
+            <article class="story-content">
+                <p>Aos 30 anos, minha trajetória profissional de mais de 5 anos em ambientes de alta complexidade, como a UTI Neonatal, é consolidada pela dedicação extrema ao próximo e ao que há de mais crítico: <strong>A vida humana.</strong> Atualmente, sou graduanda em Enfermagem (conclusão 08/2026) e estou vivenciando um processo estratégico de transição de carreira para o setor de Tecnologia através do programa <strong>SCTEC</strong>. Minha experiência na saúde me moldou com um rigor técnico inegociável: no leito do paciente, a atenção ao detalhe e a gestão de dados vitais salvam vidas. Hoje, busco canalizar minha expertise analítica para o setor tecnológico, visando evoluir ao lado de grandes desenvolvedores para que, juntos, possamos construir tecnologias que potencializem o cuidado e a segurança na área da saúde .</p>
+                <p>Busco minha primeira oportunidade no polo tecnológico de <strong>Santa Catarina (Blumenau)</strong>, onde posso contribuir para o crescimento do ecossistema de inovação regional.</p>
+            </article>
+        </section>
+
+        <!-- Diferenciais estrategicos (Cards) - Por que apostar em mim? -->
+        <section id="cards-container">
+            <article class="card">
+                <h3>Maturidade</h3>
+                <p>Gestão sob pressão mantendo clareza e a produtividade em ambientes dinâmicos e de alta criticidade.</p>
+            </article>
+            <article class="card">
+                <h3>Ética & LGPD</h3>
+                <p>Mentalidade nativa de proteção a dados sensíveis e sigilo profissional.</p>
+            </article>
+            <article class="card">
+                <h3>Rigor Analítico</h3>
+                <p>Atenção extrema aos detalhes para garantir código limpo e dados íntegros.</p>
+            </article>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades">
+            <aside class="skill-group">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Resiliência e Adaptabilidade</li>
+                    <li>Clareza na comunicação</li>
+                    <li>Aprendizado Contínuo</li>
+                    <li>Proatividade</li>
+                    <li>Trabalho em equipe</li>
+                </ul>
+            </aside>
+            <aside class="skill-group"> 
+                <h3>Hard Skills Tech</h3> <p>Iniciante</p>
+                <ul>
+                    <li>Python</li>
+                    <li>Banco de dados - SQL e NoSQL </li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </aside>
+        </section>
+
+        <!-- Projetos (Terminal SQL) -->
+        <section id="projetos">
+            <h2>Projetos de Estudo </h2>
+            <article class="project-showcase">
+                <header class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">hospital_database.sql</span> Projeto 1
+                </header>
+                <pre class="terminal-body">
+<code><span class="sql-keyword">SELECT</span> paciente_nome, sinais_vitais
+<span class="sql-keyword">FROM</span> monitoramento_hospitalar
+<span class="sql-keyword">WHERE</span> status = <span class="sql-string">'Crítico'</span>
+<span class="sql-keyword">ORDER BY</span> prioridade <span class="sql-keyword">DESC</span>;</code>
+                </pre>
+                <figcaption>
+                    <h4>Case: Arquitetura de Dados em SQL</h4>
+                    <p>Desenvolvimento de queries para simular a gestão de prontuários hospitalares, demonstrando domínio em bancos de dados relacionais.</p>
+                </figcaption>
+            </article>
+            <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Monitor Neo, projeto 2</title>
+</head>
+<body>
+    <div style="text-align: center; font-family: sans-serif; padding: 50px;">
+        <h1 style="color: #2c3e50;">Painel de Monitoramento Neonatal - Projeto 2</h1>
+        <div style="background-color: #ecf0f1; border-radius: 15px; padding: 20px; display: inline-block;">
+            <p>Frequência Cardíaca (RN):</p>
+            <h2 style="font-size: 80px; color: #e74c3c; margin: 10px;">175</h2>
+            <p style="font-weight: bold; color: #e74c3c;">⚠️ ALERTA: TAQUICARDIA DETECTADA</p>
+        </div>
+        <p style="margin-top: 20px; color: #7f8c8d;">Status: Paciente em monitorização contínua.</p>
+    </div>
+</body>
+</html>
+        </section>
+        
+
+        <section id="contato">
+            <article class="contact-box">
+                <h2>Vamos Conversar?</h2>
+                <p>Localização: <strong>Santa Catarina - Blumenau</strong></p>
+                <p>Pronta para aplicar o rigor da saúde no seu time de tecnologia.</p>
+                <div class="contact-links">
+                <a href="mailto:indyanaracrispim@gmail.com"class="cta-button">Enviar E-mail</a> 
+                <p style="font-size: 0.8rem; margin-top: 10px; color: var(--text-dim);">indyanaracrispim@gmail.com</p>
+                <a href="https://wa.me/5547989073719" target="_blank" class="cta-button">WhatsApp</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p> © 2026 Indyanara Crispim | Enf.Dev  - 1º Projeto SCTEC</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
